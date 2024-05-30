@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 8px;
+    width: 60%;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: rgb(90, 169, 239);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(45, 146, 235);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid rgb(174, 174, 174);
+    position: relative; /* Agregado */
+}
+
+.eliminar-btn {
+    background-color: rgb(255, 74, 74);
+    border: none; 
+    cursor: pointer; 
+    padding: 5px 10px;
+    position: absolute; 
+    right: 10px; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.eliminar-btn:hover {
+    background-color: red;
+}
+
+.completado {
+    background-color: blue;
+    color: red;
+}
